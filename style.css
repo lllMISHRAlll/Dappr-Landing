@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(127, 114, 241);
+    width: 100%;
+    height: 127px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+    h1 {
+        color: #ffffff;
+        font-family: Delius Unicase;
+        font-size: 61.43px;
+        font-weight: 700;
+        line-height: 78.81px;
+        text-align: left;
+        padding-left: 44px;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+
+
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 30px;
+            font-size: 1.8rem;
+        }
+
+        #more {
+            border: none;
+            background-color: rgb(127, 114, 241);
+            font-size: 1.7rem;
+            color: #ffffff;
+            padding-left: 40px;
+        }
+
+    }
+
+}
+
+.search-box {
+    /* background-color: #ffffff; */
+
+
+    input {
+        width: 250px;
+        height: 35px;
+        font-size: .9rem;
+        border: none;
+        outline: none;
+        border-radius: 100px;
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+    button {
+        background-color: #ffffff;
+        border: none;
+        font-size: 24px;
+        position: relative;
+        right: 15%;
+        top: 2px;
+        color: gray;
+        border-radius: 0 60px 60px 0;
+    }
+}
+
+.menu-bar {
+    padding-right: 30px;
+    font-size: 50px;
+
+    i {
+        color: #ffffff;
+    }
+}
+
+/* Body section */
+
+.main-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 15% 10% 0% 10%;
+
+}
+
+.first-img {
+    width: 30%;
+    height: 400px;
+    padding-right: 30px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.text-box {
+    width: 70%;
+    height: 400px;
+
+    textarea {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(230, 213, 247);
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 0px -50px 0px;
+        font-size: 20px;
+        padding: 20px;
+        box-shadow: inset 1px 1px 6px 2px rgba(0, 0, 0, 0.1);
+    }
+
+}
+
+.mini-containers {
+    display: flex;
+    justify-content: space-between;
+    padding: 7%;
+}
+
+.cont {
+    height: 150px;
+    width: 270px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+
+    p {
+        color: #ffffff;
+        font-size: 1.74rem;
+        font-weight: 600;
+        padding: 10% 8%;
+    }
+}
+
+.mini1 {
+    background-color: rgb(169, 152, 186);
+}
+
+.mini2 {
+    background-color: rgb(81, 81, 194);
+}
+
+.mini3 {
+    background-color: rgb(194, 67, 194);
+}
+
+.mini4 {
+    background-color: black;
+}
+
+/*infor Swction*/
+
+.info {
+    background-color: rgb(72, 72, 224);
+    height: 100%;
+    width: 87%;
+    left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.side-buttons {
+    button {
+        color: #ffffff;
+        background-color: rgb(72, 72, 224);
+        font-size: 35px;
+        display: grid;
+        margin: 45px;
+        border: 4px solid white;
+        border-radius: 10px;
+        width: 20rem;
+
+        p {
+            padding: 20px;
+        }
+    }
+
+    .yourInfo-btn {
+        background-color: #BCE0F6;
+        border: none;
+
+        p {
+            color: black;
+        }
+    }
+}
+
+.info-box {
+    background-color: #ffffff;
+    height: 350px;
+    width: 700px;
+    margin-top: 45px;
+    border-radius: 10px;
+    display: grid;
+    padding: 3%;
+
+    button {
+        width: 90px;
+        position: relative;
+        left: 530px;
+        top: 10px;
+        background-color: black;
+        border-radius: 5px;
+
+        p {
+            color: #ffffff;
+            font-size: 18px;
+            padding: 0;
+            font-weight: 500;
+        }
+
+        img {
+            width: 28px;
+            padding-left: 7px;
+        }
+    }
+}
+
+
+/*sticky imgs*/
+
+.sticky-imgs {
+    display: inline-block;
+    position: absolute;
+    top: 200px;
+    left: 92vw;
+}
+
+#callHead {
+    position: absolute;
+    top: 80vh;
+    right: 12vh;
+    height: 150px;
+    width: 150px;
+    border: none;
+    position: fixed;
+}
+
+#whatsapp {
+    position: sticky;
+    transition: top 0.1s, right 0.1s;
+}
