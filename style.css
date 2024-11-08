@@ -91,7 +91,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 15% 10% 0% 10%;
-
+    width: 100%;
 }
 
 .first-img {
@@ -124,6 +124,17 @@ nav {
         resize: none;
     }
 
+}
+
+#whatsapp {
+    height: 30vh;
+    width: 11vh;
+    background-repeat: no-repeat;
+    margin-right: 1vh;
+    position: sticky;
+    top: 20vh;
+    margin-left: auto;
+    bottom: 40vh;
 }
 
 .mini-containers {
@@ -251,9 +262,4 @@ nav {
     width: 150px;
     border: none;
     position: fixed;
-}
-
-#whatsapp {
-    position: sticky;
-    transition: top 0.1s, right 0.1s;
 }
